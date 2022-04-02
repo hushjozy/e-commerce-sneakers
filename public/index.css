@@ -1,8 +1,8 @@
-
-html,body{
-  width:100vw;
-  height:3743px;
-  font-family: 'Poppins';
+html,
+body {
+  width: 100vw;
+  height: 3743px;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
 }
@@ -11,29 +11,26 @@ html,body{
   /* overflow: hidden; */
   height: 123px;
   width: 100vw;
-
 }
-.logo{
+.logo {
   position: absolute;
   top: 35px;
 }
-.menu{
+.menu {
   position: absolute;
 
-width:60vw;
-left: 40vw;
-top: 45px;
+  width: 60vw;
+  left: 40vw;
+  top: 45px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-
   /* float: left; */
-  color: #9C9897;
+  color: #9c9897;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
 }
 
 /* Change the color of links on hover */
@@ -44,94 +41,139 @@ top: 45px;
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  color: #985D30;
+  color: #985d30;
+  font-weight: 700;
+  text-decoration: underline;
 }
-input{
+input {
   position: absolute;
-width: 10vw;
-height: 28px;
-left: 34vw;
-top: -8px;
-background-color: #C4C4C4;
-border-radius: 28px;
-border-color: #C4C4C438;
+  width: 10vw;
+  height: 28px;
+  left: 34vw;
+  top: -8px;
+  background-color: #c4c4c4;
+  border-radius: 28px;
+  border-color: #c4c4c438;
 }
-.fa{
+.fa {
   position: absolute;
-  left: 39vw;
-  color: #9C9897;
+  left: 42vw;
+  color: #9c9897;
 }
-.midText{
+.midText {
   top: 220px;
-  position:absolute;
-  width: 60vw;
+  position: absolute;
+  width: 100vw;
   margin-left: 5vw;
   color: #fff;
-  font-family: 'Poppins';
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
 }
-h1{
+h1 {
+  font-weight: 700;
   font-size: 80px;
+  line-height: 1.4;
+  margin-bottom: 0px;
 }
-.shoes{
+.shoes {
   display: inline-block;
-  color: #30DAA7;
+  color: #30daa7;
+  font-weight: 700;
   font-size: 80px;
   position: absolute;
-  top: 174px;
+  top: 161px;
   left: 387px;
-  }
-
-.shop{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 20px 40px;
-text-decoration: none;
-position: inherit;
-width: 150px;
-height: 30px;
-left: 90px;
-font-size: 24px;
-line-height: 36px;
-
-/* identical to box height */
-color: #985D30;
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 10px;
-background: rgba(255, 255, 255, 0.94);
-border-radius: 20px;
-}
-.feats{
-  margin:3.33vw;
-  width:100vw;
-  content: "";
- display: table;
- clear: both;
-}
-.feat{
-  width: 30vw;
-height: 172px;
- float: left;
- text-align: center;
-}
-.feat img{
-  margin-left: 4vw;
-  background-color: #E7E7E7;
-  background-size: 70px 70px;
-  border-radius:20px
 }
 
-.cards{
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  text-decoration: none;
   position: absolute;
-width: 656px;
-height: 370px;
-left: 90px;
-top: 1340px;
+  width: 150px;
+  height: 30px;
+  left: 90px;
+  font-size: 24px;
+  line-height: 36px;
+  left: 0px;
+  /* identical to box height */
+  color: #985d30;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: 20px;
+}
+.feats {
+  margin: 3.33vw;
+  width: 100vw;
+  content: "";
+  display: table;
+  clear: both;
+}
+.feat {
+  width: 30vw;
+  height: 172px;
+  float: left;
+  text-align: center;
+}
+.feat img {
+  margin-left: 4vw;
+  background-color: #e7e7e7;
+  background-size: 70px 70px;
+  border-radius: 20px;
+}
 
-background: url(.jpg);
-border-radius: 20px;
+.cards {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  top: 68px;
+  height: 767px;
+}
+.card {
+  width: 40vw;
+  float: left;
+  text-align: center;
+}
+
+.footer {
+  /* Rectangle 35 */
+
+  position: absolute;
+  width: 100vw;
+  height: 346px;
+  left: 0px;
+  top: 3397px;
+  display: table;
+  clear: both;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.7);
+}
+.footer-col {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  float: left;
+  width: 20vw;
+}
+.footer-col h1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+}
+.footer-col p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  /* identical to box height, or 188% */
 }
