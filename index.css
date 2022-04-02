@@ -1,0 +1,137 @@
+
+html,body{
+  width:100vw;
+  height:3743px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+}
+.topnav {
+  background-color: #fff;
+  /* overflow: hidden; */
+  height: 123px;
+  width: 100vw;
+
+}
+.logo{
+  position: absolute;
+  top: 35px;
+}
+.menu{
+  position: absolute;
+
+width:60vw;
+left: 40vw;
+top: 45px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+
+  /* float: left; */
+  color: #9C9897;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #985D30;
+}
+input{
+  position: absolute;
+width: 10vw;
+height: 28px;
+left: 34vw;
+top: -8px;
+background-color: #C4C4C4;
+border-radius: 28px;
+border-color: #C4C4C438;
+}
+.fa{
+  position: absolute;
+  left: 39vw;
+  color: #9C9897;
+}
+.midText{
+  top: 220px;
+  position:absolute;
+  width: 60vw;
+  margin-left: 5vw;
+  color: #fff;
+  font-family: 'Poppins';
+}
+h1{
+  font-size: 80px;
+}
+.shoes{
+  display: inline-block;
+  color: #30DAA7;
+  font-size: 80px;
+  position: absolute;
+  top: 174px;
+  left: 387px;
+  }
+
+.shop{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 40px;
+text-decoration: none;
+position: inherit;
+width: 150px;
+height: 30px;
+left: 90px;
+font-size: 24px;
+line-height: 36px;
+
+/* identical to box height */
+color: #985D30;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+background: rgba(255, 255, 255, 0.94);
+border-radius: 20px;
+}
+.feats{
+  margin:3.33vw;
+  width:100vw;
+  content: "";
+ display: table;
+ clear: both;
+}
+.feat{
+  width: 30vw;
+height: 172px;
+ float: left;
+ text-align: center;
+}
+.feat img{
+  margin-left: 4vw;
+  background-color: #E7E7E7;
+  background-size: 70px 70px;
+  border-radius:20px
+}
+
+.cards{
+  position: absolute;
+width: 656px;
+height: 370px;
+left: 90px;
+top: 1340px;
+
+background: url(.jpg);
+border-radius: 20px;
+}
