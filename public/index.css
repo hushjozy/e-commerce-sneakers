@@ -6,6 +6,10 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+a{
+  color:black;
+  text-decoration:none;
+}
 .topnav {
   background-color: #fff;
   /* overflow: hidden; */
@@ -131,16 +135,22 @@ h1 {
 }
 
 .cards {
-  margin: 0 auto;
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 .column {
-  margin-left: 10vw;
+  min-width:100%;
+  padding: 1rem;
+  margin:0 10vw;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 500px));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+  grid-gap: 1.3rem 1rem;
 }
 
 .card {
+  margin: 0 auto;
   overflow: hidden;
   border-radius: 20px;
   position: relative;
@@ -240,4 +250,15 @@ h1 {
 .footer-col .socials {
   margin-top: 90px;
   margin-left: -80px;
+}
+.license {
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+  height: 44.5px;
+  border-top: 2px white;
+  background: rgba(0, 0, 0, 0.7);
+  top: 3742px;
+  text-align: center;
+  color: #ffffff;
 }
